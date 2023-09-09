@@ -1,0 +1,255 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+.banner {
+    border-radius: 500px;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+.banner1 {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 65px 65px 65px auto 200px;
+    padding: 18px;
+    overflow: auto;
+    margin-top: 4px;
+    column-gap: 30px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 66, 66), white);
+
+}
+
+.navbar a {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-decoration: none;
+    background-color: rgb(124, 124, 124);
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+/* CSS FOR ITEMS BLOCK */
+
+.item {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.items {
+
+    border: 0.5em solid #2d2d2d;
+    height: 450px;
+    width: 350px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+
+}
+.items a{
+    text-decoration: none;
+}
+
+.items img {
+    display: block;
+
+    width: 250px;
+    height: auto;
+    padding: 50px;
+    padding-bottom: 0%;
+}
+.items  :hover{
+    background-color: #ffffff;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
+    /* background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0)); */
+    color: black;
+
+    
+}
+
+.itemsh {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+ 
+}
+
+/* CSS FOR GAMES COLOM */
+
+#game {
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    border-radius: 40px;
+    padding: 0px;
+    margin-top: 100px;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+.games {
+    display: grid;
+    overflow: auto;
+    grid-template-columns: 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px;
+    column-gap: 10px;
+    height: 200px;
+    border-radius: 40px;
+    background-image: linear-gradient(to right, rgb(67, 66, 66), rgb(255, 255, 255), rgb(0, 0, 0));
+    margin-right: 0px;
+    margin-left: 0px;
+    background-image: url(coc.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.games::-webkit-scrollbar {
+    display: none;
+}
+
+.game1 {
+    box-shadow: -7px 6px #000000;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 40px;
+    z-index: 5;
+
+}
+.game2 {
+    box-shadow: -7px 6px #000000;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 40px;
+    z-index: 5;
+
+}
+.game3 img{
+    position: relative;
+    width: 1200px;
+    height: 100px;
+}
+
+.item2 {
+    box-shadow: -7px 6px #000000;
+    border: 2px solid #ffffff;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 40px;
+    /* text-align: center; */
+}
+
+.game1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    z-index: 4;
+}
+.game2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    z-index: 4;
+}
+.game2{
+    border: 2px solid whitesmoke;
+}
+.item2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    z-index: 4;
+}
+
+.item1 {
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #000000;text-align: center;
+    padding-top: 10px;
+}
+
+.item1 a {      
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);margin-top: 10px;
+    margin: 48px;
+}
+
+#search {
+    padding: 5px;
+    border: 2px solid rgb(64, 64, 64);
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.navbarelm:hover {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(81, 81, 81);
+    color: white;
+}
+/* CSS FOR CONTACT BLOCk */
+#contact {
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+    color: rgb(96, 95, 95);
+    margin-top: 100px;
+
+}
+
+.detail {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(86, 86, 85);
+}
+
+.details {
+    margin: auto;
+    height: 76px;
+    text-align: center;
+    margin-bottom: 0%;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info1 {
+    height: 160px;
+    width: 100px;
+    text-align: center;
+    font-size: large;
+}
+.info1 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info img {
+    height: 80px;
+    width: 80px;
+}

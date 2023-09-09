@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+    .banner{
+        /* display: block; */
+        /* background-color: rgb(94, 94, 94); */
+        border-radius: 500px;
+        color: rgb(255, 255, 255);
+        /* border: 2px solid rgb(255, 255, 255); */
+        margin-top: 20px;
+        /* background-image: linear-gradient(to right,rgb(56 56 56) , rgb(175, 170, 170)) ; */
+
+    }
+    .banner1{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+
+    }
+  
+    .container{
+        display: grid;
+       grid-template-columns: 65px 65px 65px auto 200px  ;
+       padding: 18px;
+       overflow: auto;
+       border-radius: 30px;
+       column-gap: 30px;
+       background-image: linear-gradient(to right,rgb(46, 45, 45) , rgb(255 255 255)) ;
+       
+    }
+    .navbar a{
+        border: 2px solid rgb(0, 0, 0);
+        padding: 8px ;
+        text-decoration: none;
+        background-color: rgb(124, 124, 124);
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 25px;
+        color: black;
+    }
+    #game{
+        border: 2px solid rgb(45, 44, 44);
+        margin-top: 10px;
+        border-radius: 40px;
+        /* box-shadow: 18px 8px #414040; */
+        padding: 10px;
+    }
+    h2{
+        display: block;
+        text-align: center;
+        font-style: italic;
+    }
+    
+    .games{
+        display: grid;
+        overflow: auto;
+        grid-template-columns: 210px  210px  210px 210px  210px  210px  210px  210px  210px  210px  ;
+        column-gap: 10px;
+        border-radius: 40px;
+        background-image: linear-gradient(to right,rgb(46, 45, 45) , rgb(255 255 255)) ;
+    }
+    .games::-webkit-scrollbar{
+        display: none;
+    }
+    .item{
+        box-shadow: -7px 6px #000000;
+        /* border: 2px solid #e79595; */
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        border-radius: 40px;
+        text-align: center;
+        }
+    .item2{
+        box-shadow: -7px 6px #000000;
+        border: 2px solid #e6b16d;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        border-radius: 40px;
+        text-align: center;
+        }
+
+    img{
+            width: 200px;
+            height: 200px;
+            border-radius: 40px;
+        }
+     
+    .item1{
+        border: 2px solid rgb(0, 0, 0);
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        border-radius: 30px;
+        background-color: #000000;
+  
+    }    
+    .item1 a{
+        
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin: 79px 66px;
+    }
+    #search{
+        padding: 5px;
+        border: 2px solid rgb(255, 0, 0);
+        border-radius: 20px;
+        padding: 10px;
+        font-weight: bold;
+        }
+    .navbarelm:hover{
+        background-color: rgb(0, 0, 0);
+        border: 2px solid rgb(212, 255, 0);
+        color: white;
+        /* box-shadow: 2px 2px 10px 4px rgb(255, 251, 0); */
+    }
+       
+  
+
+</style>
+<body>
+    <div class="container">
+        <div class="navbar"><a class="navbarelm" href="#"> Home</a></div>
+        <div class="navbar"><a class="navbarelm" href="#">Game</a> </div>
+        <div class="navbar"> <a class="navbarelm" href="#">About</a> </div>
+        <div class="navbar"><a class="navbarelm" href="#">contactus</a> </div>
+        <div><input type="text" name="search" id="search" placeholder="Enter your choice"></div>
+    </div>
+    <div class="banner">
+        <h1 class="banner1"> Bored!</h1>
+        <h1 class="banner1"> Then check out this web page</h1>
+        <!-- <img class="banner1" src="ss.png" alt="reload"> -->
+    </div>
+    <div id="game">
+        <h2>New Games</h2>
+        <div class="games">
+            <div class="item"><a href="changes.html"><img src="/images/coc.jpg" alt="reload"></a></div>
+            <div class="item"><a href="changes.html"><img src="/images/redball.jpg" alt="reload"></a></div>
+            <div class="item"><a href="changes.html"><img src="/images/hillclimb.jpg" alt="reload"></a></div>
+            <div class="item2"><a href="changes.html"><img src="/images/freefire.jpg" alt="reload"></a></div>
+            <div class="item"><a href="changes.html"><img src="/images/ss.png" alt="reload"></a></div>
+            <div class="item"><a href="changes.html"><img src="/images/ss.png" alt="reload"></a></div>
+            <div class="item"><a href="changes.html"><img src="/images/ss.png" alt="reload"></a></div>
+            <div class="item"><a href="changes.html"><img src="/images/ss.png" alt="reload"></a></div>
+            <div class="item"><a href="changes.html"><img src="/images/ss.png" alt="reload"></a></div>
+            <div class="item1"><a class="moregames" href="index.html">view more</a></div>
+        </div>
+    </div>
+    </body>
+</html>
